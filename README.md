@@ -28,8 +28,8 @@ This study proposes an artificial system that acts as a decision support system 
 • Insight: Patients with fever have an average heart beat rate of about 95 bpm compared to those without fever, who have an average rate of about 68 bpm – the 27 bpm difference is the greatest predictor for regression.
 
 3. Modelling & Evaluation
-| Task | Type | Key Metrics |
-| :--- | :--- | :--- |
+| Task                 | Type         | Key Metrics |
+| :---                 | :---         | :--- |
 | Condition prediction | Multi-class classification | Accuracy, F1-score, Precision, Recall |
 | Heart rate prediction | Regression | MAE, RMSE, R² |
 
