@@ -34,23 +34,23 @@ This study proposes an artificial system that acts as a decision support system 
 | Heart rate prediction | Regression | MAE, RMSE, R² |
 
 ## 💡 Key Results
-• Classification: Most informative features are Systolic BP and Temperature
-• PCA analysis verifies complete linear separation in all 4 conditions
-• Cascade architecture gives superior performance in regression compared to a standalone classifier
+• Classification: Most informative features are Systolic BP and Temperature\
+• PCA analysis verifies complete linear separation in all 4 conditions\
+• Cascade architecture gives superior performance in regression compared to a standalone classifier\
 • Room Temperature has least variation across conditions, hence low information gain.
 
 ## 🛠️ Tech Stack
-• Language: Python 3.8+/
-• ML: scikit-learn/
-• Data: pandas, NumPy/
-• Visualisation: matplotlib, seaborn/
-• Dimensionality Reduction: PCA (sklearn.decomposition)/
+• Language: Python 3.8+\
+• ML: scikit-learn\
+• Data: pandas, NumPy\
+• Visualisation: matplotlib, seaborn\
+• Dimensionality Reduction: PCA (sklearn.decomposition)\
 • Encoding: LabelEncoder, OrdinalEncoder
 
 ## 🔑 Skills:
-• Multi-tasking in classification and regression in the same pipeline/
-• Creation of cascaded models based on expert knowledge/
-• Development of medical features from vital sign data/
+• Multi-tasking in classification and regression in the same pipeline\
+• Creation of cascaded models based on expert knowledge\
+• Development of medical features from vital sign data\
 • Evaluation of models through multiple metrics in two different machine learning tasks
 
 
