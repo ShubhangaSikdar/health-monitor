@@ -14,20 +14,20 @@ This study proposes an artificial system that acts as a decision support system 
 
 ## ⚙️ Methodology
 1. Exploratory Data Analysis (7 Layers)\
-• Skewness and feature distribution analysis (close to normal, no transformations needed)
-• Outlier detection using IQR – no outliers found
-• Heat map of correlation — Strongest linear predictor: Systolic BP & Heart Beat: r = 0.78
-• Scatter plot + boxplot of feature vs target by condition
-• Visualization of PCA in 2D - Clear cluster separation for all 4 conditions
-• 3D visualization with multiple axes (BMI x Systolic BP x Heart Beat)
+• Skewness and feature distribution analysis (close to normal, no transformations needed)\
+• Outlier detection using IQR – no outliers found\
+• Heat map of correlation — Strongest linear predictor: Systolic BP & Heart Beat: r = 0.78\
+• Scatter plot + boxplot of feature vs target by condition\
+• Visualization of PCA in 2D - Clear cluster separation for all 4 conditions\
+• 3D visualization with multiple axes (BMI x Systolic BP x Heart Beat)\
 • Parallel Coordinates Plot
 
 2. Feature Engineering & Cascade Architecture\
-• Creation of engineered features within the cardiovascular disease domain
-• Cascade architecture where the classification model is used to predict the regression feature
+• Creation of engineered features within the cardiovascular disease domain\
+• Cascade architecture where the classification model is used to predict the regression feature\
 • Insight: Patients with fever have an average heart beat rate of about 95 bpm compared to those without fever, who have an average rate of about 68 bpm – the 27 bpm difference is the greatest predictor for regression.
 
-3. Modelling & Evaluation
+3. Modelling & Evaluation\
 | Task                 | Type         | Key Metrics |
 | :---                 | :---         | :--- |
 | Condition prediction | Multi-class classification | Accuracy, F1-score, Precision, Recall |
